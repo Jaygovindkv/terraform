@@ -3,7 +3,7 @@ resource "aws_instance" "Demo1" {
   instance_type = "t2.micro"
   key_name = "demokey"
   tags = {
-    Name = "Demo1"
+    Name = "Demo2"
   }
  }
 provider "aws" {
